@@ -4,7 +4,6 @@ import { AppBar, Box, Toolbar, Typography } from '@mui/material';
 import { contactService } from './Services/ContactService';
 import { Contact } from './Models/Contact';
 import ContactList from './Components/ContactList';
-import FullFeaturedCrudGrid from './Components/Rien/Index';
 
 const App: React.FC = () => {
 

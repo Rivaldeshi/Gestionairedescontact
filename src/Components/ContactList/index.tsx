@@ -1,9 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { contactService } from '../../Services/ContactService';
 import { Contact } from '../../Models/Contact';
-import { DataGrid, GridActionsCellItem, GridColDef, GridRowId, GridToolbarContainer, GridValueGetterParams } from '@mui/x-data-grid';
+import { DataGrid, GridActionsCellItem, GridColDef, GridToolbarContainer, GridValueGetterParams } from '@mui/x-data-grid';
 import { Button, Container } from '@mui/material';
-import AddIcon from '@mui/icons-material/Add';
 import EditIcon from '@mui/icons-material/Edit';
 import DeleteIcon from '@mui/icons-material/DeleteOutlined';
 import CreateOrEditContact from '../CreateOrEditContact';
